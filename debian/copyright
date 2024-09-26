@@ -1,15 +1,15 @@
-Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: googlemaps
+Upstream-Contact: Justin Poehnelt <jpoehnelt@google.com>
 Source: https://github.com/googlemaps/google-maps-services-python
 
 Files: *
 Copyright: (c) 2014-2022, Google LLC
- Justin Poehnelt <jpoehnelt@google.com>
 License: Apache-2.0
 
 Files: debian/*
 Copyright: (c) 2024, Thomas Goirand <zigo@debian.org>
-               2024, DONG XU <me@eipi.fun>
+               2024, Dong Xu <me@eipi.fun>
 License: Apache-2.0
 
 License: Apache-2.0

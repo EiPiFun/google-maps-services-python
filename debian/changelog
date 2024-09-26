@@ -1,3 +1,16 @@
+python-googlemaps (4.10.0-2) unstable; urgency=medium
+
+  * New source only upload.
+  * Small changes:
+    - Upgrade debhelper-compact version and standards version
+    - Change watch target to github
+    - Add missing metadata
+    - Add upstream contact
+    - Add info of Testsuite and Rules-Requires-Root
+    - Change name from DONG XU to Dong Xu
+
+ -- Dong Xu <me@eipi.fun>  Tue, 24 Sep 2024 23:31:39 +0800
+
 python-googlemaps (4.10.0-1) unstable; urgency=medium
 
   * Initial release. (Closes: #1077809)

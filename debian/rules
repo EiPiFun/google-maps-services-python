@@ -7,6 +7,3 @@ export PYBUILD_TEST_ARGS= -v -k 'not test_transit_without_time and not test_elev
 
 %:
 	dh $@ --buildsystem=pybuild --with python3
-
-
-
