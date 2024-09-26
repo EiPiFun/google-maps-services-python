@@ -1,0 +1,5 @@
+python-googlemaps (4.10.0-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #1077809)
+
+ -- DONG XU <me@eipi.fun>  Sat, 03 Aug 2024 00:09:19 +0900

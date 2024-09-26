@@ -1,0 +1,12 @@
+#!/usr/bin/make -f
+
+UPSTREAM_GIT := https://github.com/googlemaps/google-maps-services-python.git
+include /usr/share/openstack-pkg-tools/pkgos.make
+
+export PYBUILD_TEST_ARGS= -v -k 'not test_transit_without_time and not test_elevation_along_path_single'
+
+%:
+	dh $@ --buildsystem=pybuild --with python3
+
+
+
